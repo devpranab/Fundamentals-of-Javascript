@@ -242,6 +242,11 @@ console.log(cp); //false
 // delete arr[0];
 // console.log(arr);
 
+//instanceof operator - returns true if an object is created by a given constructor:
+// const fruits = ["Banana", "Orange", "Apple"];
+// fruits instanceof Array;
+// console.log(fruits);
+
 //comma operator
 let x = 1;
 x = (x++, x)
