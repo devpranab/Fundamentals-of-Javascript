@@ -4,6 +4,13 @@
 // name = 10;
 //or way declare
 /*
+/*
+4 Ways to Declare a JavaScript Variable:
+Using var
+Using let
+Using const
+Using nothing but not for staying strict mode
+*/
 var number = 10;
 console.log(typeof number);
 number = 11;
