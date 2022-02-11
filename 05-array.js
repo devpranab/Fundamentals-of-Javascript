@@ -87,6 +87,10 @@ let se = [1,3,4,5,6,7,8];
 //let remove = se.splice(2,3);
 let remove = se.splice(2,3,6);
 console.log(remove);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits);
 */
 
 //declare empty array
@@ -148,6 +152,12 @@ console.log(result);
 let countries = ["India", "US", "BD", "China"];
 var result = countries.sort();
 console.log(result); 
+
+Sorting an Array in Random Order
+Example
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return 0.5 - Math.random()});
+console.log(points);
 */
 
 //reverse - opposit of sort(decending)
@@ -221,3 +231,16 @@ console.log(result);
 // let mult_arr = [["a", "b"], ["1", "2"]];
 // console.log(mult_arr[0][0]); //acces a
 // console.log(mult_arr[1][0]); //access 1
+
+//array iteration using forEach()
+// The forEach() method calls a function (a callback function) once for each array element.
+
+// const numbers = [45, 4, 9, 16, 25];
+// let txt = "";
+// numbers.forEach(myFunction);
+
+// function myFunction(value, index, array) {
+//   txt += value + "" + "<br>";
+ 
+//   console.log(txt);
+// }
