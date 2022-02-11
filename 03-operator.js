@@ -252,4 +252,11 @@ let x = 1;
 x = (x++, x)
 console.log(x);
 
+//delete operator
+// JavaScript Array delete()
+// Warning !
+// Array elements can be deleted using the JavaScript operator delete.
+// Using delete leaves undefined holes in the array.
+// Use pop() or shift() instead.
+
 //bitwise operator:
