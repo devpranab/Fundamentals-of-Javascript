@@ -168,7 +168,6 @@ console.log(result);
 
 
 //reduce()
-//console.log(result);
 
 
 //fil() - Fill all the elements with a value(Kiwi):
@@ -176,6 +175,9 @@ console.log(result);
 // fruits.fill("Kiwi");
 // console.log(fruits);
 
+//array constant
+//use const in array - best practice
+//because will use unique array, no need to change, we will work with changing property value
 
 //filter()
 //console.log(result);
