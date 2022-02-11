@@ -123,6 +123,9 @@ var result = as.join(",");
 var result = as.join(" ");
 var result = as.join(":");
 console.log(result);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.join(" * ");
 */
 
 //concat
