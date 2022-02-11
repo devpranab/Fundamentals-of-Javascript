@@ -79,7 +79,7 @@ console.log(res);
 // var res = parseFloat(sn);
 //  console.log(res);
 
-/* mult method use in one
+/* multi method use in one
 var x = 12.2;
 x.toString(); //"12.2"
 parseFloat(x.toString()); //12.2
@@ -126,11 +126,25 @@ console.log(x)
 
 
 //String:
+//JavaScript strings are for storing and manipulating text.
 // var str = "pranab";
 // var str = "pranab is 'programmer'"; //ok
 // var str = "pranab is "programmer""; //no
 // var str = 'pranab is "programmer"'; //ok 
 // console.log(str);
+
+/*
+document.getElementById("demo").innerHTML =
+"Hello Dolly!";
+*/
+
+/*
+Property Access
+ECMAScript 5 (2009) allows property access [ ] on strings:
+Example
+let text = "HELLO WORLD";
+let char = text[0];
+*/
 
 //string operator
 //escape charecter
@@ -156,6 +170,17 @@ console.log(x)
 // var str = "pranabsarkar";
 // var result = str.length;
 // console.log(result);
+
+//indexOf()
+// let str = "Please locate where 'locate' occurs!";
+// str.indexOf("locate");
+
+//lastIndexOf();
+// let str = "Please locate where 'locate' occurs!";
+// str.lastIndexOf("locate");
+
+// let str = "Please locate where 'locate' occurs!";
+// str.lastIndexOf("locate", 15);
 
 // toString() Get the content of the text:
 // let text = "Hello World!";
@@ -229,6 +254,9 @@ console.log(x)
 // let text = "How are you doing today?";
 // const myText = text.split(" "); //,
 // console.log(myText);
+// text.split(",")    // Split on commas
+// text.split(" ")    // Split on spaces
+// text.split("|")    // Split on pipe
 
 //includes()
 // let text = "Hello world, welcome to the universe.";
@@ -273,8 +301,6 @@ console.log(x)
 // let date = new Date();
 // console.log(date.toString());
 // console.log(date.toUTCString());
-
-//
 
 
 //Boolean - return true or false
