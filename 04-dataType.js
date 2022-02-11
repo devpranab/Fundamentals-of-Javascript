@@ -1,8 +1,31 @@
 //Number:
-// var number = 20
-// var number = 20.56
+// var number = 20 // A number with decimals
+// var number = 20.56 // A number without decimals
 // var number = 123e5 //or 123 * 10**5
 // var number = 123e-5 //
+
+/*
+Floating Precision
+Floating point arithmetic is not always 100% accurate:
+
+let x = 0.2 + 0.1;
+
+To solve the problem above, it helps to multiply and divide:
+
+let x = (0.2 * 10 + 0.1 * 10) / 10;
+*/
+
+/*
+let x = 10; //number
+let y = 20;
+let z = x + y;
+*/
+
+/*
+let x = "10"; //string
+let y = "20";
+let z = x + y;
+*/
 
 // var sn = "21" + 12;
 // console.log(sn); //2112
@@ -61,7 +84,9 @@ console.log(res);
 
 //toPrecision() - convert string
 // var pre = 2.34122;
+// var res = pre.toPrecision();
 // var res = pre.toPrecision(1);
+// var res = pre.toPrecision(4);
 //  console.log(res);
 
 // parseInt() - covert string to number
@@ -97,11 +122,25 @@ console.log(num)
 //Exponential
 let x = 123e5 = 123,00000
 x = 123 * 10 ** 5
+let x = 9.656;
+x.toExponential(2);
+x.toExponential(4);
+x.toExponential(6);
 
 //toFixed
 let a = 23.45632
 let num = a.toFixed(2);
+    num = a.toFixed(3);
 console.log(num)
+
+//valueOf() - returns a number as a number
+let x = 123;
+x.valueOf();
+console.log(x);
+(123).valueOf();
+console.log(x);
+(100 + 23).valueOf();
+console.log(x);
 
 //number object
 let x = new Number(237);
@@ -122,7 +161,14 @@ console.log(x)
 // var re = isNaN(n);
 // console.log(re);
 
+// let x = 123;
+// But numbers can also be defined as objects with the keyword new:
+// let y = new Number(123);
 
+//compare two object
+// let x = new Number(500);
+// let y = new Number(500);
+// (x == y) true or false? ans:false
 
 
 //String:
@@ -341,7 +387,12 @@ if(a == b){
 // var x = 10/"p";
 // var x = "10" - "p";
 // console.log(x);
-
+// console.log(isNaN(x));
+'
+// let x = NaN;
+// let y = 5;
+// let z = x + y;
+// console.log(z);
 
 
 //Array
