@@ -1,4 +1,5 @@
 //Variables: - changable(primitive) space
+//Variables are containers for storing values.
 //declare
 // var name;
 // name = 10;
@@ -16,6 +17,30 @@ console.log(typeof number);
 number = 11;
 number = "pranab";
 console.log(name); 
+*/
+
+/*
+<p id="demo"></p>
+
+<script>
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script>
+*/
+
+/*
+//Just Like Algebra
+var x = 5;
+var y = 6;
+var z = x + y;
+console.log(z);
+*/
+
+/*
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+*/
 
 /*
 var a = 20;
