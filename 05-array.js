@@ -1,5 +1,10 @@
 //Array [] - a collection of items
 
+//data type
+//const fruits = ["Banana", "Orange", "Apple"];
+// let type = typeof fruits;
+// console.log(type);
+
 // var fdAge = [18, 20, 19];
 // console.log(fdAge);
 // console.log(fdAge[0]);
@@ -13,6 +18,11 @@
 // var souravAge = fdAge[2];
 // var souravAge = fdAge[6]; //undefined
 // console.log(souravAge);
+
+// accessing the Last Array Element
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruit = fruits[fruits.length - 1];
+// console.log(fruit);
 
 // value set-update in array
 // fdAge[1] = 21;
@@ -33,8 +43,6 @@
 
 //Access the Full Array
 // With JavaScript, the full array can be accessed by referring to the array name:
-
-// Example
 // const cars = ["Saab", "Volvo", "BMW"];
 // document.getElementById("demo").innerHTML = cars;
 
