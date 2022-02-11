@@ -43,3 +43,7 @@ console.log(dob);
 // }
 // const end = new Date();
 // console.log("time elapsed", end-start, sum);    //9ms
+
+//Date formats
+//ISO format - international
+//const d = new Date("2015-03-25");
