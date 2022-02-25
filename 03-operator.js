@@ -264,7 +264,7 @@ let a = 5;
 let resultAccess = a > 5 ? true : false;
 // console.log(resultAccess);
 
-//don't
+//do
 let a = 5;
 let resultAccess = a > 5;
 // console.log(resultAccess);
