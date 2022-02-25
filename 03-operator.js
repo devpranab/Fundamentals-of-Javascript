@@ -230,11 +230,44 @@ console.log(cp); //false
 // name += "world";
 
 
-//ternery operator:
+//ternery operator-es-6: shorthand of conditioon
+//rules: condition ? trueside : falseside
 
+// let age = 18;
+// let result = (age >= 18) ? "yes" : "no";
+// console.log(result);
+
+//ternery operator can be nested
+// let age = 18;
+// let age = 17;
+// let result = (age >= 18) ? "adult"
+//                          : (age < 10)
+//                          ? "child" : "young";
+// console.log(result);
+//it's complex to showing, use only for short condition
 
 //typeOf operator:comes data type
 //var tp = "pranab";
+
+//don't
+let isLoggedin = true;
+let resultAccess = isLoggedin ? true : false;
+// console.log(resultAccess)
+
+//do
+// let isLoggedin = true;
+// let resultAccess = isLoggedin;
+// console.log(resultAccess);
+
+//don't
+let a = 5;
+let resultAccess = a > 5 ? true : false;
+// console.log(resultAccess);
+
+//don't
+let a = 5;
+let resultAccess = a > 5;
+// console.log(resultAccess);
 
 //delete operator
 //delete main value in array
