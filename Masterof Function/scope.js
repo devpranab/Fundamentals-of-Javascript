@@ -1,4 +1,10 @@
 //Scope
+//scope - the ultimate weirdo concepts
+
+//global scope
+//function scope
+//block scope
+
 let bonus = 8;
 function sum(first, second){                       //function scope
     let result = first + second + bonus;
